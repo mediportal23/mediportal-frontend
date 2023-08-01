@@ -8,7 +8,7 @@ import Loading from "../components/Loading";
 import fetchData from "../helper/apiCall";
 import jwt_decode from "jwt-decode";
 
-axios.defaults.baseURL = "http://127.0.0.1:5000/api";
+axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
 
 function Profile() {
   const { userId } = jwt_decode(localStorage.getItem("token"));

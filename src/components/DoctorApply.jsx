@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import "../styles/doctorapply.css";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://127.0.0.1:5000/api";
+axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
 
 function DoctorApply() {
   const [formDetails, setFormDetails] = useState({

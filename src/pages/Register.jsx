@@ -4,7 +4,7 @@ import "../styles/register.css";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-axios.defaults.baseURL = "http://127.0.0.1:5000/api";
+axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
 
 function Register() {
   const [file, setFile] = useState("");

@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Empty from "./Empty";
 import fetchData from "../helper/apiCall";
 
-axios.defaults.baseURL = "http://127.0.0.1:5000/api";
+axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
 
 const Users = () => {
   const [users, setUsers] = useState([]);
