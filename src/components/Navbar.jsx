@@ -29,7 +29,7 @@ const Navbar = () => {
     <header>
       <nav className={iconActive ? "nav-active" : ""}>
         <h2 className="nav-logo">
-          <NavLink to={"/"}>HealthBooker</NavLink>
+          <NavLink to={"/"}>MediPortal</NavLink>
         </h2>
         <ul className="nav-links">
           <li>
@@ -64,16 +64,16 @@ const Navbar = () => {
           )}
           {!token ? (
             <>
-              <li>
-                <NavLink
+              <li >
+                <NavLink id="logreg2"
                   className="btn"
                   to={"/login"}
                 >
                   Login
                 </NavLink>
               </li>
-              <li>
-                <NavLink
+              <li >
+                <NavLink id="logreg1"
                   className="btn"
                   to={"/register"}
                 >

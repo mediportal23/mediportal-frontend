@@ -88,3 +88,9 @@ nav {
     right: 7%;
   }
 }
+#logreg1{
+  background-color: var(--bold-text-color);
+}
+#logreg2{
+  background-color: var(--bold-text-color);
+}

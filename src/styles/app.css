@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900;1000&family=Poppins:wght@300;500;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap");
 
 :root {
-  --light-blue: #e9f1fa;
-  --dark-blue: #00abe4;
-  --darker-blue: #0077ff;
+  --light-blue: #ddd8c4;
+  --dark-blue: #a3c9a8;
+  --darker-blue: #84b59f;
   --white: #fff;
-  --bold-text-color: #1e375a;
-  --light-text-color: rgba(30, 55, 90, 0.7);
+  --bold-text-color: #50808e;
+  --light-text-color: rgba(51, 81, 69, 0.7);
   --font-family: "Poppins", sans-serif;
 }
 
