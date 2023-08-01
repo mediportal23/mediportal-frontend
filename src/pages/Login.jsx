@@ -8,7 +8,7 @@ import { setUserInfo } from "../redux/reducers/rootSlice";
 import jwt_decode from "jwt-decode";
 import fetchData from "../helper/apiCall";
 
-axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
+axios.defaults.baseURL = "https://api-mediportal-yeci.onrender.com/api";
 
 function Login() {
   const dispatch = useDispatch();

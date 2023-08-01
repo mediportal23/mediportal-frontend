@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
+axios.defaults.baseURL = "https://api-mediportal-yeci.onrender.com/api";
 
 const fetchData = async (url) => {
   const { data } = await axios.get(url, {

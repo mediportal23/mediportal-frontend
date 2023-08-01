@@ -9,7 +9,7 @@ import fetchData from "../helper/apiCall";
 import "../styles/user.css";
 
 
-axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
+axios.defaults.baseURL = "https://api-mediportal-yeci.onrender.com/api";
 
 const AdminAppointments = () => {
   const [appointments, setAppointments] = useState([]);

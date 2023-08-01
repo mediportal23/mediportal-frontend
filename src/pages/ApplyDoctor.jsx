@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
+axios.defaults.baseURL = "https://api-mediportal-yeci.onrender.com/api";
 
 const ApplyDoctor = () => {
   const navigate = useNavigate();
